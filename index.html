@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <h3> Address Book </h3>
+    </header>
+    <main>
+        <div class="contacts-container">
+            <h4 class="title">Contact Names</h4>
+            <div class="contacts">
+                <div class="contact">
+                    <div class="name">Sostene</div>
+                    <div class="hidden-content">
+                        <span class="address">Kigali</span>
+                        <span class="email">ngso@gail.com</span>
+                        <span>kevin 0787938344</span>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+        <div class="form-container">
+            <h4 class="title">Contacts Form</h4>
+            <form action="">
+                <div>
+                    <span>Names</span>
+                    <input type="text" name="name" placeholder="Your Full Names" required class="name">
+                </div>
+                <div>
+                    <span>Email</span>
+                    <input type="text" name="email" placeholder="Your Email"  required class="email">
+                </div>
+                <div>
+                    <span>Address</span>
+                    <input type="text" name="address" placeholder="Your Address" required class="address">
+                </div>
+                <div>
+                    <span>Name&Phone</span>
+                    <textarea name="phone"required class="nbrs">
+                        your phone nbrs,friends,aquitances
+                    </textarea>
+                </div>
+                <div>
+                    <button>Add Contact</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <div class="display-contact">
+        <div class="contact-container">
+            <div><span>Names</span> <span></span> </div>
+            <div><span>Email</span> <span></span> </div>
+            <div><span>Address</span> <span></span> </div>
+            <div><span></span> <span></span> </div>
+        </div>
+        <button class="close">Close</button>
+    </div>
+   <script src="./app.js"></script> 
+</body>
+</html>
